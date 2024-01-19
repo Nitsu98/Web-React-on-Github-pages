@@ -6,6 +6,7 @@ import Button from "./components/Button";
 import { useNavigate } from "react-router-dom";
 import hojaTextura from "./assets/images/hoja-blanca-texturizada.jpg";
 import hojaCarton from "./assets/images/fondo-textura-carton-blanca.jpg";
+import imagenSmalltalk from "./assets/imagenSmalltalk/Squeak6.0-22104-64bit.zip";
 
 function Home() {
   const navigate = useNavigate();
@@ -72,7 +73,9 @@ function Home() {
       >
         <Button
           onClick={() => {
-            alert("You clicked me!");
+            window.location.href =
+              "https://squeak.js.org/run/#zip=https://nitsu98.github.io/web-react-on-github-pages/" +
+              imagenSmalltalk;
           }}
           style={{
             ...styles.cartonButton,
