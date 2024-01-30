@@ -1,27 +1,11 @@
 //@ts-nocheck
 import React from "react";
-import hojaTextura from "./assets/images/hoja-blanca-texturizada.jpg";
 import representacionSimbolica from "./assets/papers/Representacion-simbolica-y-materialismo-dialectico.pdf";
 import integracionDelConocimiento from "./assets/papers/Integración_del_conocimiento_cientifico_y_materialismo_dialectico.pdf";
 import paperALanguage from "./assets/papers/Paper.A.Language.Preprint.pdf";
 
 function About() {
   const styles = {
-    container: {
-      display: "flex",
-      flexDirection: "column",
-      alignItems: "center",
-      justifyContent: "center",
-      backgroundColor: "#fff",
-      paddingTop: 100,
-      paddingBottom: 100,
-      width: "65%",
-      height: "100%",
-      minHeight: "30vw",
-      backgroundImage: `url(${hojaTextura})`,
-      backgroundSize: "cover",
-      backgroundRepeat: "repeat-y",
-    },
     text: {
       fontFamily: "Pastel Crayon",
     },

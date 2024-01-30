@@ -4,87 +4,84 @@ import React from "react";
 import "./style.css";
 import Button from "./components/Button";
 import { useNavigate } from "react-router-dom";
-import hojaTextura from "./assets/images/hoja-blanca-texturizada.jpg";
 import hojaCarton from "./assets/images/fondo-textura-carton-blanca.jpg";
-import imagenSmalltalk from "./assets/imagenSmalltalk/Squeak6.0-22104-64bit.zip";
+
+const imageSmalltalkPath =
+  "agustincico.github.io@master&files=[Representar.image]";
 
 function Home() {
   const navigate = useNavigate();
+
   const styles = {
-    container: {
-      display: "flex",
-      flexDirection: "column",
-      alignItems: "center",
-      justifyContent: "center",
-      backgroundColor: "#fff",
-      paddingTop: 100,
-      paddingBottom: 100,
-      width: "65%",
-      height: "100%",
-      minHeight: "30vw",
-      backgroundImage: `url(${hojaTextura})`,
-      backgroundSize: "cover",
-      backgroundRepeat: "repeat-y",
-    },
     text: {
       fontFamily: "Pastel Crayon",
     },
+
     cartonButton: {
       backgroundImage: `url(${hojaCarton})`,
-      backgroundColor: `rgba(0, 0, 255, 0.7)`,
       backgroundBlendMode: "multiply",
       borderRadius: "20px 20px 20px 20px",
+      borderWidth: 0,
+      borderBottomWidth: "1vh",
+      borderColor: "grey",
     },
   };
 
   return (
-    <div style={styles.container}>
+    <>
       <div
         style={{
-          ...styles.text,
-          fontSize: 100,
-          flex: 1,
+          height: "40vh",
+          display: "flex",
+          flexDirection: "column ",
+          alignItems: "center",
+          justifyContent: "center",
         }}
       >
-        Representar
-      </div>
-      <div
-        style={{
-          ...styles.text,
-          fontSize: 15,
-          flex: 1,
-          width: "65%",
-        }}
-      >
-        blah blah blah blah blah blah blah blah blah blah blah blah blah blah
-        blah blah blah blah blah blah blah blah blah blah blah blah blah blah
-        blah blah blah blah blah blah
+        <div
+          style={{
+            ...styles.text,
+            fontSize: "10vw",
+          }}
+        >
+          Representar
+        </div>
+        <div
+          style={{
+            ...styles.text,
+            fontSize: "2vw",
+            width: "65%",
+            textAlign: "center",
+          }}
+        >
+          blah blah blah blah blah blah blah blah blah blah blah blah blah blah
+          blah blah blah blah blah blah blah blah blah blah blah blah blah blah
+          blah blah blah blah blah blah
+        </div>
       </div>
       <div
         style={{
           display: "flex",
           flexDirection: "row",
-          flex: 1,
           justifyContent: "center",
           alignItems: "center",
+          height: "30vh",
           width: "100%",
-          //backgroundColor: "#F00",
         }}
       >
         <Button
           onClick={() => {
             window.location.href =
-              "https://squeak.js.org/run/#zip=https://nitsu98.github.io/web-react-on-github-pages/" +
-              imagenSmalltalk;
+              "https://squeak.js.org/run/#url=https://cdn.jsdelivr.net/gh/agustincico/" +
+              imageSmalltalkPath;
           }}
           style={{
             ...styles.cartonButton,
             ...styles.text,
-            fontSize: 50,
+            backgroundColor: `rgba(0, 100, 255, 0.7)`,
+            fontSize: "5vw",
             width: "50%",
-            height: "100%",
-            borderWidth: 0,
-            borderBottomWidth: 5,
+            height: "25vh",
           }}
         >
           Probar online
@@ -94,31 +91,54 @@ function Home() {
         style={{
           display: "flex",
           flexDirection: "row",
-          flex: 1,
           justifyContent: "space-around",
           alignItems: "center",
           width: "100%",
-          height: "100%",
-          marginTop: 20,
-          //backgroundColor: "#F00",
+          height: "30vh",
         }}
       >
-        <Button
-          onClick={() => {
-            navigate("/about");
-          }}
+        <div
           style={{
-            ...styles.cartonButton,
-            ...styles.text,
-            fontSize: 20,
-            borderRadius: "5px 5px 5px 5px",
-            padding: "10px 10px 10px 10px",
-            borderWidth: 0,
-            borderBottomWidth: 3,
+            display: "flex",
+            flexDirection: "column",
+            height: "90%",
+            alignItems: "stretch",
+            justifyContent: "space-around",
           }}
         >
-          Sobre el proyecto
-        </Button>
+          <Button
+            onClick={() => {
+              navigate("/about");
+            }}
+            style={{
+              ...styles.cartonButton,
+              ...styles.text,
+              fontSize: "2vw",
+              backgroundColor: `rgba(0, 200, 0, 0.7)`,
+              padding: "10px 10px 10px 10px",
+              marginLeft: 5,
+              marginRight: 5,
+            }}
+          >
+            Sobre el proyecto
+          </Button>
+          <Button
+            onClick={() => {
+              navigate("/contact-us");
+            }}
+            style={{
+              ...styles.cartonButton,
+              ...styles.text,
+              fontSize: "2vw",
+              backgroundColor: `rgba(255, 0, 200, 0.7)`,
+              padding: "10px 10px 10px 10px",
+              marginLeft: 5,
+              marginRight: 5,
+            }}
+          >
+            Hablá con nosotros
+          </Button>
+        </div>
         <Button
           onClick={() => {
             navigate("/classroom-experiences");
@@ -126,33 +146,60 @@ function Home() {
           style={{
             ...styles.cartonButton,
             ...styles.text,
-            fontSize: 20,
-            borderRadius: "5px 5px 5px 5px",
-            padding: "10px 10px 10px 10px",
-            borderWidth: 0,
-            borderBottomWidth: 3,
+            backgroundColor: `rgba(200, 200, 0, 0.7)`,
+            fontSize: "3vw",
+            height: "25vh",
+            width: "30%",
+            marginLeft: 5,
+            marginRight: 5,
           }}
         >
           Experiencias en aula
         </Button>
-        <Button
-          onClick={() => {
-            navigate("/news-blog");
-          }}
+        <div
           style={{
-            ...styles.cartonButton,
-            ...styles.text,
-            fontSize: 20,
-            borderRadius: "5px 5px 5px 5px",
-            padding: "10px 10px 10px 10px",
-            borderWidth: 0,
-            borderBottomWidth: 3,
+            display: "flex",
+            flexDirection: "column",
+            height: "90%",
+            alignItems: "stretch",
+            justifyContent: "space-around",
           }}
         >
-          Blog de Novedades
-        </Button>
+          <Button
+            onClick={() => {
+              navigate("/news-blog");
+            }}
+            style={{
+              ...styles.cartonButton,
+              ...styles.text,
+              fontSize: "2vw",
+              backgroundColor: `rgba(100, 0, 255, 0.7)`,
+              padding: "10px 10px 10px 10px",
+              marginLeft: 5,
+              marginRight: 5,
+            }}
+          >
+            Blog de Novedades
+          </Button>
+          <Button
+            onClick={() => {
+              navigate("/tutorials");
+            }}
+            style={{
+              ...styles.cartonButton,
+              ...styles.text,
+              fontSize: "2vw",
+              backgroundColor: `rgba(200, 0, 0, 0.7)`,
+              padding: "10px 10px 10px 10px",
+              marginLeft: 5,
+              marginRight: 5,
+            }}
+          >
+            Videotutoriales
+          </Button>
+        </div>
       </div>
-    </div>
+    </>
   );
 }
 

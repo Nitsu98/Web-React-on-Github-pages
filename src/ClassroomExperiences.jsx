@@ -1,6 +1,5 @@
 //@ts-nocheck
 import React from "react";
-import hojaTextura from "./assets/images/hoja-blanca-texturizada.jpg";
 import ceroMasInfinitoImage from "./assets/images/classroom-experiences/3.0.paseando por el 0+infinito.jpg";
 import dibujandoFisicamente from "./assets/images/classroom-experiences/3.2.0.Dibujando físicamente.png";
 import dibujandoSimboloArbol from "./assets/images/classroom-experiences/2.Ananda y Yacon pintando arbol.jpg";
@@ -9,24 +8,10 @@ import robotAlLado from "./assets/images/classroom-experiences/3.3.Robot al lado
 import controlandoRobot from "./assets/images/classroom-experiences/3.5.Controlando el Robot.jpg";
 import bugRobot from "./assets/images/classroom-experiences/3.6.Bug robot.jpg";
 import diploma from "./assets/images/classroom-experiences/1.Diploma.jpg";
+import { useContext } from "react";
 
 function ClassroomExperiences() {
   const styles = {
-    container: {
-      display: "flex",
-      flexDirection: "column",
-      alignItems: "center",
-      justifyContent: "center",
-      backgroundColor: "#fff",
-      paddingTop: 100,
-      paddingBottom: 100,
-      width: "65%",
-      height: "100%",
-      minHeight: "30vw",
-      backgroundImage: `url(${hojaTextura})`,
-      backgroundSize: "cover",
-      backgroundRepeat: "repeat-y",
-    },
     text: {
       fontFamily: "Pastel Crayon",
     },
