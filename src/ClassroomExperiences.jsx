@@ -1,5 +1,6 @@
 //@ts-nocheck
 import React from "react";
+import "./App.css";
 import ceroMasInfinitoImage from "./assets/images/classroom-experiences/3.0.paseando por el 0+infinito.jpg";
 import dibujandoFisicamente from "./assets/images/classroom-experiences/3.2.0.Dibujando físicamente.png";
 import dibujandoSimboloArbol from "./assets/images/classroom-experiences/2.Ananda y Yacon pintando arbol.jpg";
@@ -8,19 +9,13 @@ import robotAlLado from "./assets/images/classroom-experiences/3.3.Robot al lado
 import controlandoRobot from "./assets/images/classroom-experiences/3.5.Controlando el Robot.jpg";
 import bugRobot from "./assets/images/classroom-experiences/3.6.Bug robot.jpg";
 import diploma from "./assets/images/classroom-experiences/1.Diploma.jpg";
-import { useContext } from "react";
 
 function ClassroomExperiences() {
-  const styles = {
-    text: {
-      fontFamily: "Pastel Crayon",
-    },
-  };
   return (
-    <div style={styles.container}>
+    <>
       <div
+        className="Text"
         style={{
-          ...styles.text,
           fontSize: 80,
           flex: 1,
         }}
@@ -28,8 +23,8 @@ function ClassroomExperiences() {
         Experiencias en aula
       </div>
       <p
+        className="Text"
         style={{
-          ...styles.text,
           fontSize: 20,
           flex: 1,
           width: "80%",
@@ -39,8 +34,8 @@ function ClassroomExperiences() {
         niños y niñas de distintas edades.
       </p>
       <p
+        className="Text"
         style={{
-          ...styles.text,
           fontSize: 20,
           flex: 1,
           width: "80%",
@@ -51,8 +46,8 @@ function ClassroomExperiences() {
       </p>
 
       <h2
+        className="Text"
         style={{
-          ...styles.text,
           fontSize: 25,
           flex: 1,
           width: "80%",
@@ -64,8 +59,8 @@ function ClassroomExperiences() {
       </h2>
       <img src={ceroMasInfinitoImage} style={{ width: "80%" }} />
       <p
+        className="Text"
         style={{
-          ...styles.text,
           fontSize: 20,
           flex: 1,
           width: "80%",
@@ -76,8 +71,8 @@ function ClassroomExperiences() {
       </p>
       <img src={dibujandoFisicamente} style={{ width: "80%" }} />
       <p
+        className="Text"
         style={{
-          ...styles.text,
           fontSize: 20,
           flex: 1,
           width: "80%",
@@ -88,8 +83,8 @@ function ClassroomExperiences() {
       </p>
       <img src={dibujandoSimboloArbol} style={{ width: "80%" }} />
       <p
+        className="Text"
         style={{
-          ...styles.text,
           fontSize: 20,
           flex: 1,
           width: "80%",
@@ -102,8 +97,8 @@ function ClassroomExperiences() {
         <img src={robotAlLado} style={{ width: "38.6%" }} />
       </div>
       <p
+        className="Text"
         style={{
-          ...styles.text,
           fontSize: 20,
           flex: 1,
           width: "80%",
@@ -114,8 +109,8 @@ function ClassroomExperiences() {
       </p>
       <img src={controlandoRobot} style={{ width: "80%" }} />
       <p
+        className="Text"
         style={{
-          ...styles.text,
           fontSize: 20,
           flex: 1,
           width: "80%",
@@ -126,8 +121,8 @@ function ClassroomExperiences() {
       </p>
       <img src={bugRobot} style={{ width: "80%" }} />
       <p
+        className="Text"
         style={{
-          ...styles.text,
           fontSize: 20,
           flex: 1,
           width: "80%",
@@ -138,8 +133,8 @@ function ClassroomExperiences() {
       </p>
       <img src={diploma} style={{ width: "80%" }} />
       <p
+        className="Text"
         style={{
-          ...styles.text,
           fontSize: 20,
           flex: 1,
           width: "80%",
@@ -147,7 +142,7 @@ function ClassroomExperiences() {
       >
         Gracias a todos los que participaron!
       </p>
-    </div>
+    </>
   );
 }
 

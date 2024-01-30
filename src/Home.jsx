@@ -13,10 +13,6 @@ function Home() {
   const navigate = useNavigate();
 
   const styles = {
-    text: {
-      fontFamily: "Pastel Crayon",
-    },
-
     cartonButton: {
       backgroundImage: `url(${hojaCarton})`,
       backgroundBlendMode: "multiply",
@@ -39,16 +35,16 @@ function Home() {
         }}
       >
         <div
+          className="Text"
           style={{
-            ...styles.text,
             fontSize: "10vw",
           }}
         >
           Representar
         </div>
         <div
+          className="Text"
           style={{
-            ...styles.text,
             fontSize: "2vw",
             width: "65%",
             textAlign: "center",
@@ -70,6 +66,7 @@ function Home() {
         }}
       >
         <Button
+          className="Text"
           onClick={() => {
             window.location.href =
               "https://squeak.js.org/run/#url=https://cdn.jsdelivr.net/gh/agustincico/" +
@@ -77,7 +74,6 @@ function Home() {
           }}
           style={{
             ...styles.cartonButton,
-            ...styles.text,
             backgroundColor: `rgba(0, 100, 255, 0.7)`,
             fontSize: "5vw",
             width: "50%",
@@ -107,12 +103,12 @@ function Home() {
           }}
         >
           <Button
+            className="Text"
             onClick={() => {
               navigate("/about");
             }}
             style={{
               ...styles.cartonButton,
-              ...styles.text,
               fontSize: "2vw",
               backgroundColor: `rgba(0, 200, 0, 0.7)`,
               padding: "10px 10px 10px 10px",
@@ -123,12 +119,12 @@ function Home() {
             Sobre el proyecto
           </Button>
           <Button
+            className="Text"
             onClick={() => {
               navigate("/contact-us");
             }}
             style={{
               ...styles.cartonButton,
-              ...styles.text,
               fontSize: "2vw",
               backgroundColor: `rgba(255, 0, 200, 0.7)`,
               padding: "10px 10px 10px 10px",
@@ -140,12 +136,12 @@ function Home() {
           </Button>
         </div>
         <Button
+          className="Text"
           onClick={() => {
             navigate("/classroom-experiences");
           }}
           style={{
             ...styles.cartonButton,
-            ...styles.text,
             backgroundColor: `rgba(200, 200, 0, 0.7)`,
             fontSize: "3vw",
             height: "25vh",
@@ -166,12 +162,12 @@ function Home() {
           }}
         >
           <Button
+            className="Text"
             onClick={() => {
               navigate("/news-blog");
             }}
             style={{
               ...styles.cartonButton,
-              ...styles.text,
               fontSize: "2vw",
               backgroundColor: `rgba(100, 0, 255, 0.7)`,
               padding: "10px 10px 10px 10px",
@@ -182,12 +178,12 @@ function Home() {
             Blog de Novedades
           </Button>
           <Button
+            className="Text"
             onClick={() => {
               navigate("/tutorials");
             }}
             style={{
               ...styles.cartonButton,
-              ...styles.text,
               fontSize: "2vw",
               backgroundColor: `rgba(200, 0, 0, 0.7)`,
               padding: "10px 10px 10px 10px",

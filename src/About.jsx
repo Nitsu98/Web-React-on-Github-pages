@@ -1,20 +1,16 @@
 //@ts-nocheck
 import React from "react";
+import "./App.css";
 import representacionSimbolica from "./assets/papers/Representacion-simbolica-y-materialismo-dialectico.pdf";
 import integracionDelConocimiento from "./assets/papers/Integración_del_conocimiento_cientifico_y_materialismo_dialectico.pdf";
 import paperALanguage from "./assets/papers/Paper.A.Language.Preprint.pdf";
 
 function About() {
-  const styles = {
-    text: {
-      fontFamily: "Pastel Crayon",
-    },
-  };
   return (
-    <div style={styles.container}>
+    <>
       <div
+        className="Text"
         style={{
-          ...styles.text,
           fontSize: 80,
           flex: 1,
         }}
@@ -22,8 +18,8 @@ function About() {
         Sobre el proyecto
       </div>
       <h2
+        className="Text"
         style={{
-          ...styles.text,
           fontSize: 25,
           flex: 1,
           width: "80%",
@@ -33,8 +29,8 @@ function About() {
         - Quiénes somos y por qué queremos dominar el mundo?
       </h2>
       <p
+        className="Text"
         style={{
-          ...styles.text,
           fontSize: 20,
           flex: 1,
           width: "80%",
@@ -49,8 +45,8 @@ function About() {
         de trabajos forzados cuando efectivamente lo dominemos).
       </p>
       <h2
+        className="Text"
         style={{
-          ...styles.text,
           fontSize: 25,
           flex: 1,
           width: "80%",
@@ -60,8 +56,8 @@ function About() {
         - Cómo surgió la idea?
       </h2>
       <p
+        className="Text"
         style={{
-          ...styles.text,
           fontSize: 20,
           flex: 1,
           width: "80%",
@@ -78,8 +74,8 @@ function About() {
         lenguaje de programación visual para niños y niñas de 4 a 8 años.
       </p>
       <h2
+        className="Text"
         style={{
-          ...styles.text,
           fontSize: 25,
           flex: 1,
           width: "80%",
@@ -89,8 +85,8 @@ function About() {
         - Pero como saben que su plan funciona?
       </h2>
       <p
+        className="Text"
         style={{
-          ...styles.text,
           fontSize: 20,
           flex: 1,
           width: "80%",
@@ -114,8 +110,8 @@ function About() {
         </a>
       </p>
       <h2
+        className="Text"
         style={{
-          ...styles.text,
           fontSize: 25,
           flex: 1,
           width: "80%",
@@ -125,18 +121,19 @@ function About() {
         - Qué podemos esperar de proyectos futuros?
       </h2>
       <p
+        className="Text"
         style={{
-          ...styles.text,
           fontSize: 20,
           flex: 1,
           width: "80%",
           textAlign: "left",
+          paddingBottom: 100,
         }}
       >
         Bueh, para qué pedís artículos científicos si no los vas a leer? Leelos
         y te vas a enterar.
       </p>
-    </div>
+    </>
   );
 }
 

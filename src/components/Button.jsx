@@ -15,7 +15,11 @@ export default function Button(props) {
     },
   };
   return (
-    <button onClick={props.onClick} style={{ ...styles.box, ...props.style }}>
+    <button
+      className={props.className}
+      onClick={props.onClick}
+      style={{ ...styles.box, ...props.style }}
+    >
       {props.children}
     </button>
   );

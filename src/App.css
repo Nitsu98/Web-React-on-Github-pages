@@ -22,4 +22,8 @@
   min-height: 100vh;
   background-image: url("./assets/images/hoja-blanca-texturizada.jpg");
   background-repeat: repeat;
-};
+}
+
+.Text {
+  font-family: "Pastel Crayon";
+}
