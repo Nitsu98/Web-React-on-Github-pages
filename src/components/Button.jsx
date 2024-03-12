@@ -4,9 +4,6 @@ import React from "react";
 export default function Button(props) {
   const styles = {
     box: {
-      backgroundColor: "#00F",
-      color: "#FFF",
-      borderRadius: 5,
       cursor: "pointer",
       display: "flex",
       justifyContent: "center",

@@ -1,0 +1,5 @@
+To do:
+-Me parece que la posta es que vh y vw siempre sean los que establezcan el tamaño
+de los componentes
+-Probablemente ello implique que el contenedor principal tenga distintas configuraciones
+según si la ventana es mas alta que ancha o viceversa

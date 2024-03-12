@@ -1,0 +1,20 @@
+@media (orientation: landscape) {
+
+    .CartonButton {
+        background-image: url("./assets/images/fondo-textura-carton-blanca.jpg");
+        background-blend-mode: multiply;
+        border-radius: 20px 20px 20px 20px;
+        border-width: 0;
+        border-bottom-width: 1vh;
+        border-color: grey;
+        color: white
+      }
+
+    .TryOnlineButton {
+        background-color: rgba(0, 100, 255, 0.7);
+        font-size: 5vw;
+        width: 50%;
+        height: 25vh;
+    }
+
+}
