@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/web-react-on-github-pages/static/css/main.4c66575d.css",
-    "main.js": "/web-react-on-github-pages/static/js/main.cb9bb905.js",
+    "main.css": "/web-react-on-github-pages/static/css/main.d44192c0.css",
+    "main.js": "/web-react-on-github-pages/static/js/main.77b8231c.js",
     "static/js/787.69a31ee7.chunk.js": "/web-react-on-github-pages/static/js/787.69a31ee7.chunk.js",
     "static/media/Paper.A.Language.Preprint.pdf": "/web-react-on-github-pages/static/media/Paper.A.Language.Preprint.44af5c7086dd87e65d35.pdf",
     "static/media/3.2.0.Dibujando físicamente.png": "/web-react-on-github-pages/static/media/3.2.0.Dibujando físicamente.301e0a07c5032d066593.png",
@@ -14,17 +14,15 @@
     "static/media/3.6.Bug robot.jpg": "/web-react-on-github-pages/static/media/3.6.Bug robot.4e7504c916eda6256d1b.jpg",
     "static/media/Representacion-simbolica-y-materialismo-dialectico.pdf": "/web-react-on-github-pages/static/media/Representacion-simbolica-y-materialismo-dialectico.0ebf334180453194f82e.pdf",
     "static/media/Integración_del_conocimiento_cientifico_y_materialismo_dialectico.pdf": "/web-react-on-github-pages/static/media/Integración_del_conocimiento_cientifico_y_materialismo_dialectico.2399cbf208f3d4edf6a7.pdf",
-    "static/media/fondo-hoja-cuadriculada.jpg": "/web-react-on-github-pages/static/media/fondo-hoja-cuadriculada.7317af33131765a8f990.jpg",
-    "static/media/hoja-blanca-texturizada.jpg": "/web-react-on-github-pages/static/media/hoja-blanca-texturizada.92091af80b79b8af009e.jpg",
     "static/media/pastel_crayon.ttf": "/web-react-on-github-pages/static/media/pastel_crayon.f9672ff268069c546a19.ttf",
     "static/media/fondo-textura-carton-blanca.jpg": "/web-react-on-github-pages/static/media/fondo-textura-carton-blanca.9d1922477125c146435d.jpg",
     "index.html": "/web-react-on-github-pages/index.html",
-    "main.4c66575d.css.map": "/web-react-on-github-pages/static/css/main.4c66575d.css.map",
-    "main.cb9bb905.js.map": "/web-react-on-github-pages/static/js/main.cb9bb905.js.map",
+    "main.d44192c0.css.map": "/web-react-on-github-pages/static/css/main.d44192c0.css.map",
+    "main.77b8231c.js.map": "/web-react-on-github-pages/static/js/main.77b8231c.js.map",
     "787.69a31ee7.chunk.js.map": "/web-react-on-github-pages/static/js/787.69a31ee7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4c66575d.css",
-    "static/js/main.cb9bb905.js"
+    "static/css/main.d44192c0.css",
+    "static/js/main.77b8231c.js"
   ]
 }
