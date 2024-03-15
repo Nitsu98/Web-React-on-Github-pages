@@ -1,0 +1,39 @@
+@media (orientation: landscape) {
+
+    .MainTitle {
+        font-size: 7vw;        
+        margin-top: 1vh;
+    }
+
+    .Description {
+        font-size: 2vw;        
+        width: 80%;
+    }
+
+    .Subtitle {
+        font-size: 3vw;        
+        width: 80%;
+        text-align: left;
+    }
+    
+}
+
+@media (orientation: portrait) {
+
+    .MainTitle {
+        font-size: 9vw;
+        margin-top: 1vh;
+    }
+
+    .Description {
+        font-size: 5vw;        
+        width: 90%;
+    }
+
+    .Subtitle {
+        font-size: 7vw;        
+        width: 90%;
+        text-align: left;
+    }
+    
+}
