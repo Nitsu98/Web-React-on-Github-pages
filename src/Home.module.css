@@ -2,6 +2,7 @@
     --TryOnlineButton: var(--orange);
     --DownloadButton: var(--orange);
     --MiddleButton: var(--orange);
+    --TinyButton: var(--orange);
     --Separator: var(--orange);
     --BorderColor: var(--dark-orange);
 }
@@ -82,6 +83,7 @@
     }
 
     .TinyButton {
+        background-color: var(--TinyButton);
         font-size: 2vw;
         padding: 10px 10px 10px 10px;
         margin-left: 5;
