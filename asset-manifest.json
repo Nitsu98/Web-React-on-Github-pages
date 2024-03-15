@@ -1,11 +1,9 @@
 {
   "files": {
-    "main.css": "/web-react-on-github-pages/static/css/main.fb17a386.css",
-    "main.js": "/web-react-on-github-pages/static/js/main.f94f1268.js",
+    "main.css": "/web-react-on-github-pages/static/css/main.2f7330fa.css",
+    "main.js": "/web-react-on-github-pages/static/js/main.d8a12b9d.js",
     "static/js/787.69a31ee7.chunk.js": "/web-react-on-github-pages/static/js/787.69a31ee7.chunk.js",
     "static/media/Paper.A.Language.Preprint.pdf": "/web-react-on-github-pages/static/media/Paper.A.Language.Preprint.44af5c7086dd87e65d35.pdf",
-    "static/media/3.2.0.Dibujando físicamente.png": "/web-react-on-github-pages/static/media/3.2.0.Dibujando físicamente.301e0a07c5032d066593.png",
-    "static/media/2.Ananda y Yacon pintando arbol.jpg": "/web-react-on-github-pages/static/media/2.Ananda y Yacon pintando arbol.5d72080f4e75072fdd95.jpg",
     "static/media/1.Diploma.jpg": "/web-react-on-github-pages/static/media/1.Diploma.5e345fb00cd8f1c958c6.jpg",
     "static/media/3.5.Controlando el Robot.jpg": "/web-react-on-github-pages/static/media/3.5.Controlando el Robot.e074668aae19c3b2f4b9.jpg",
     "static/media/3.2.1.Pensando el Robot.2.jpg": "/web-react-on-github-pages/static/media/3.2.1.Pensando el Robot.2.1343bcd9dbd97ae49e61.jpg",
@@ -17,12 +15,12 @@
     "static/media/pastel_crayon.ttf": "/web-react-on-github-pages/static/media/pastel_crayon.f9672ff268069c546a19.ttf",
     "static/media/fondo-textura-carton-blanca.jpg": "/web-react-on-github-pages/static/media/fondo-textura-carton-blanca.9d1922477125c146435d.jpg",
     "index.html": "/web-react-on-github-pages/index.html",
-    "main.fb17a386.css.map": "/web-react-on-github-pages/static/css/main.fb17a386.css.map",
-    "main.f94f1268.js.map": "/web-react-on-github-pages/static/js/main.f94f1268.js.map",
+    "main.2f7330fa.css.map": "/web-react-on-github-pages/static/css/main.2f7330fa.css.map",
+    "main.d8a12b9d.js.map": "/web-react-on-github-pages/static/js/main.d8a12b9d.js.map",
     "787.69a31ee7.chunk.js.map": "/web-react-on-github-pages/static/js/787.69a31ee7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fb17a386.css",
-    "static/js/main.f94f1268.js"
+    "static/css/main.2f7330fa.css",
+    "static/js/main.d8a12b9d.js"
   ]
 }
