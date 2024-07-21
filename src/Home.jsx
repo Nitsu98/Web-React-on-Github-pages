@@ -4,9 +4,11 @@ import homeStyles from "./Home.module.css";
 import "./style.css";
 import React from "react";
 import Button from "./components/Button";
+import Footer from "./components/Footer";
 import { useNavigate } from "react-router-dom";
 
-const imageSmalltalkPath = "Representar.image";
+const imageTecnoLiteraturaPath = "public/imagenSmalltalk/Tecnoliteratura.image";
+const imageDibujosPath = "public/imagenSmalltalk/Representar.image";
 
 function Home() {
   const navigate = useNavigate();
@@ -22,18 +24,30 @@ function Home() {
       </div>
       <div className={homeStyles.RowContainer1}>
         <Button
+          className={`Text ${homeStyles.CartonButton} ${homeStyles.TecnoLiteraturaButton}`}
+          onClick={() => {
+            window.location.href =
+              "https://squeak.js.org/run/#image=https://raw.githubusercontent.com/agustincico/agustincico.github.io/master/" +
+              imageTecnoLiteraturaPath;
+          }}
+        >
+          Tecno-literatura <br /> (poemas ejecutables)
+        </Button>
+        <text className={`Text ${homeStyles.Separator}`}>O</text>
+        <Button
           className={`Text ${homeStyles.CartonButton} ${homeStyles.TryOnlineButton}`}
           onClick={() => {
             window.location.href =
               "https://squeak.js.org/run/#image=https://raw.githubusercontent.com/agustincico/agustincico.github.io/master/" +
-              imageSmalltalkPath;
+              imageDibujosPath;
           }}
         >
-          Probalo online
+          Programación con dibujos <br /> (un ejemplo)
         </Button>
-        <text className={`Text ${homeStyles.Separator}`}>O</text>
+      </div>
+      <div className={homeStyles.RowContainer2}>
         <Button
-          className={`Text ${homeStyles.CartonButton} ${homeStyles.DownloadButton}`}
+          className={`Text ${homeStyles.CartonButton} ${homeStyles.MiddleButton}`}
           onClick={() => {
             const link = document.createElement("a");
             link.href =
@@ -103,6 +117,7 @@ function Home() {
           </Button>
         </div> */}
       </div>
+      <Footer></Footer>
     </>
   );
 }
